@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<title></title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+
+<div class="con_main">
+<center>
+
+<div  style="background-color:white;width:1060px;">
+
+
+<div class="head clearfix yh">
+
+	<!--logo-->
+    <div class="logo block clearfix">
+    	<a href="#" class="fleft">&nbsp;<img src="images/logo.png" id="logoimg"></a>
+        <div class="fright">
+        	<p class="tright"><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a> | <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a> | <a href="denglu.html">登录</a>| <a href="pingjia.html">留言</a>
+			</p>
+            
+            
+        </div>
+    </div>
+    
+    <!--nav-->
+	<div class="nav clearfix">
+    	<ul>
+        	<li><a href="index.html">网站首页</a><span style="color:white">|</span></li>
+            <li><a href="remen.html">热门景点</a><span style="color:white">|</span></li>
+            <li><a href="jingdian.html">熊猫基地</a><span style="color:white">|</span></li>
+            <li><a href="jiudian.html">精品酒店</a><span style="color:white">|</span></li>
+            <li><a href="meishi.html">特色美食</a><span style="color:white">|</span></li>
+            <li><a href="meishi1.html">人气川菜</a></li>
+			
+        </ul>
+    </div>
+    
+    <div class="focusBox">
+			<ul class="pic">
+					<li><a href="#" ><img src="images/banner1.png"/></a></li>
+					<li><a href="#" ><img src="images/banner2.png"/></a></li>
+					<li><a href="#" ><img src="images/banner3.png"/></a></li>
+			</ul>
+			<ul class="hd">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+	</div>
+
+
+</div>
+
+<div class="main clearfix ofHidden block yh">
+
+	<!--左侧-->
+	<div class="sidebar fleft">
+    	<div class="title">景点攻略 Strategy</div>
+        <ul class="menu">
+        	<li><a href="jingdian.html">成都大熊猫繁育研究基地</a></li>
+            <li><a href="jingdian.html">宽窄巷子景区</a></li>
+            <li><a href="jingdian.html">都江堰景区</a></li>
+            <li><a href="jingdian.html">杜甫草堂博物馆</a></li>
+        </ul>
+        <div class="title mt10">旅游资讯 Information</div>
+        <div class="contact_nr">
+		<ul>
+			<li><a href="#">都江堰：千年之后仍然这么壮观 </a></li> 
+			<li><a href="#">18个成都周边好去处 </a></li> 
+			<li><a href="#">成都休闲场所指南</a></li> 
+			<li><a href="#">成都这个新晋“网红”打卡圣地 </a></li> 
+			<li><a href="#">成都及周边8个避暑地全攻略 </a></li> 
+			<li><a href="#">青城山两河漂流</a></li> 
+			<li><a href="#">成都千亩荷花飘香 笑迎夏至 </a></li> 
+			<li><a href="#">深藏成都东郊的乾隆石木教堂</a></li> 			
+		</ul>      
+        	
+        </div>
+        
+    </div>
+
+	<!--右侧-->
+    <div class="main_right fright">
+    
+		<div style="border:1px solid #529C32;height:200px;">
+        	<div class="t1"><a href=""><img src="images/more.jpg"></a><span>关于成都</span></div>
+            <div class="nr f13">
+            <p>
+			<div id="jie_left"><img src="images/jianjie.jpg" width="200" height="135"></div>
+			<div id="jie_right">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成都位于位于四川盆地西部，成都平原腹地，成都东与德阳、资阳毗邻，西与雅安、阿坝接壤，南与眉山相连。成都市下辖锦江区等10区5县，代管4个县级市。2014年末，成都市辖区建成区面积604.1平方公里，常住人口1442.8万人 。 <br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成都是“首批国家历史文化名城”和“中国最佳旅游城市”，承载着三千余年的历史，是古蜀文明发祥地，中国十大古都之一。拥有都江堰、武侯祠、杜甫草堂、金沙遗址、明蜀王陵、望江楼、青羊宫等众多名胜古迹和人文景观。 </div>
+            </div>
+        </div>
+		
+		
+    	<div class="clearfix">
+        <div class="news fright"style="border:1px solid #529C32;margin-top:20px;height:280px;width:739px;">
+        	<div class="t1"><a href=""><img src="images/more.jpg"></a><span>旅游文化</span></div>
+            <ul>
+            	<li><a href="">成都本地人周末都去了这些网红之地</a><span id="riqi">2019-06-22</span></li>
+                <li><a href="">毕业旅行 让我们在成都街头走一走</a><span id="riqi">2019-06-22</span></li>
+                <li><a href="">这年头 没有成都人不喜欢露营</a><span id="riqi">2019-06-22</span></li>
+                <li><a href="">成都入夏 又到了该去邛崃的时候了</a><span id="riqi">2019-06-22</span></li>
+                <li><a href="">成都驾车1.5h直达的避暑小镇 藏着高颜值民宿花海</a><span id="riqi">2019-06-22</span></li>
+                <li><a href="">成都必打卡 给你几十年不变的资格老味道</a><span id="riqi">2019-06-22</span></li>
+                <li><a href="">成都周边还藏着个国家级千年古镇 1h即可飚拢</a><span id="riqi">2019-06-22</span></li>
+				
+            </ul>      
+        </div>
+        
+        
+        </div>
+        
+        <div class="cp_show clearfix">
+        	<div class="title t1"><a href=""><img src="images/more.jpg"></a>玩转成都</div>
+            <div class="picScroll">
+		
+		<ul>
+			<li><a  href="#"><img _src="images/c1.jpg" src="images/blank.png" /><p>武侯祠</p></a></li>
+			<li><a  href="#"><img _src="images/c2.jpg" src="images/blank.png" /><p>成都人民公园</p></a></li>
+			<li><a  href="#"><img _src="images/c3.jpg" src="images/blank.png" /><p>文殊院</p></a></li>
+			<li><a  href="#"><img _src="images/c4.jpg" src="images/blank.png" /><p>青城后山</p></a></li>
+			<li><a  href="#"><img _src="images/c5.jpg" src="images/blank.png" /><p>黄龙溪古镇</p></a></li>
+			<li><a  href="#"><img _src="images/c6.jpg" src="images/blank.png" /><p>文化公园-青羊宫</p></a></li>
+		</ul>
+
+	</div>
+        </div>
+        
+    </div>
+
+
+
+</div>
+
+
+<div class="foot tcenter yh f13">
+	
+	<p>Copyright &copy; 中国成都 All Rights Reserved </p>
+    
+</div>
+
+</div>
+
+</center>
+
+</div>
+<script src="js/all.js" type="text/javascript"></script>
+</body>
+</html>
